@@ -1,0 +1,36 @@
+.cart-container {
+    display: flex;
+    margin-top: 50px;
+
+    justify-content: space-between;
+    .table {
+        width: 60vw;
+        th {
+            text-align: left;
+            font-size: 16px;
+            font-weight: 500;
+            width: 20%;
+        }
+        td {
+            font-size: 16px;
+        }
+    }
+
+    .total-cart {
+        margin-right: 50px;
+        .flex {
+            display: flex;
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .cart-container {
+        display: flex;
+        flex-direction: column;
+        .table {
+            margin-bottom: 50px;
+            width: 100%;
+        }
+    }
+}

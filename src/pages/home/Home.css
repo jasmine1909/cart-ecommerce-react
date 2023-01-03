@@ -1,0 +1,27 @@
+.service {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.service-item {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 35px;
+  background: var(--card-bg-01);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-item span {
+  padding-right: 20px;
+}
+.service-item h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.product-trending {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}/*# sourceMappingURL=Home.css.map */

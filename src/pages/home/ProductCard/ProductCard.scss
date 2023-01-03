@@ -1,0 +1,18 @@
+.product-item {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+
+    flex-direction: column;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    .product-img {
+        margin-bottom: 10px;
+    }
+    .product-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}

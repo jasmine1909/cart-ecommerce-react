@@ -1,0 +1,101 @@
+.detail {
+    margin-top: 50px;
+    .top-detail {
+        margin-left: 100px;
+        .detail-card {
+            display: flex;
+            justify-content: space-between;
+            .product-detail {
+                line-height: 2.9;
+                .detail-price {
+                    font-weight: 600;
+                    font-size: 25px;
+                }
+                .btn-add {
+                    background-color: black;
+                    color: white;
+                    padding: 12px;
+                    outline: none;
+                    border: none;
+                    margin-top: 20px;
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tab-section {
+    margin-bottom: 50px;
+    .tab-wrapper {
+        display: flex;
+
+        color: var(--primary-color);
+        #review {
+            padding-left: 50px;
+        }
+        .active-tab {
+            font-weight: 600;
+        }
+    }
+    .product-review {
+        ul {
+            list-style-type: none;
+            li {
+                margin-bottom: 20px;
+            }
+        }
+        .review-wrapper {
+            .review-rating {
+                font-weight: 600;
+                color: orange;
+            }
+        }
+    }
+}
+.review-form {
+    width: 80%;
+
+    margin-top: 39px;
+    .form-group {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 5px;
+
+        margin-bottom: 10px;
+        input,
+        textarea {
+            width: 80%;
+            padding: 10px;
+        }
+        span {
+            font-size: 15px;
+        }
+    }
+    .submit-review {
+        margin-top: 30px;
+        padding: 15px;
+        background-color: black;
+        color: white;
+        outline: none;
+        border: none;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+.related-items {
+    h2 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .detail-card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}

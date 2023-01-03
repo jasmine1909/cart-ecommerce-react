@@ -1,0 +1,94 @@
+.detail {
+  margin-top: 50px;
+}
+.detail .top-detail {
+  margin-left: 100px;
+}
+.detail .top-detail .detail-card {
+  display: flex;
+  justify-content: space-between;
+}
+.detail .top-detail .detail-card .product-detail {
+  line-height: 2.9;
+}
+.detail .top-detail .detail-card .product-detail .detail-price {
+  font-weight: 600;
+  font-size: 25px;
+}
+.detail .top-detail .detail-card .product-detail .btn-add {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+.detail .top-detail .detail-card .product-detail .btn-add:hover {
+  opacity: 0.6;
+}
+
+.tab-section {
+  margin-bottom: 50px;
+}
+.tab-section .tab-wrapper {
+  display: flex;
+  color: var(--primary-color);
+}
+.tab-section .tab-wrapper #review {
+  padding-left: 50px;
+}
+.tab-section .tab-wrapper .active-tab {
+  font-weight: 600;
+}
+.tab-section .product-review ul {
+  list-style-type: none;
+}
+.tab-section .product-review ul li {
+  margin-bottom: 20px;
+}
+.tab-section .product-review .review-wrapper .review-rating {
+  font-weight: 600;
+  color: orange;
+}
+
+.review-form {
+  width: 80%;
+  margin-top: 39px;
+}
+.review-form .form-group {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.review-form .form-group input,
+.review-form .form-group textarea {
+  width: 80%;
+  padding: 10px;
+}
+.review-form .form-group span {
+  font-size: 15px;
+}
+.review-form .submit-review {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+}
+.review-form .submit-review:hover {
+  opacity: 0.8;
+}
+
+.related-items h2 {
+  margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .detail-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=ProductDetail.css.map */
